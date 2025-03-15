@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Wishes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🎂 Enter Your Name & Age 🎂</h1>
+        <input type="text" id="name" placeholder="Enter Your Name">
+        <input type="number" id="age" placeholder="Enter Your Age">
+        <button onclick="generateCard()">🎉 Generate Birthday Wish 🎉</button>
+        
+        <div id="card" class="hidden">
+            <div class="lights"></div>
+            <div class="cake">
+                <h2 id="wish"></h2>
+                <img src="cake.png" alt="Birthday Cake">
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+      </html>
